@@ -5,14 +5,14 @@ var KeyListeners = {};
 exports.sim = function(key, count) {
 	if(count){
 		for(var i=0; i<count; i++){
-			process.stdin.write(km.getBuffer(key));
+			process.stdout.write(km.getBuffer(key));
 		}
 	}
-	else process.stdin.write(km.getBuffer(key));
+	else process.stdout.write(km.getBuffer(key));
 };
 
 exports.out = function(string){
-	process.stdin.write(string);
+	process.stdout.write(string);
 }
 
 
