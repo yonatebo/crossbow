@@ -1,0 +1,18 @@
+{
+	"marksPath" : "/Users/njbleaux/ws_0/Repos/bow/marks.json",
+	"exitPath" : "/Users/njbleaux/ws_0/Repos/bow/exitcommand.sh",
+	"previewWidth" : 40,
+	"displayHeight" : 12,
+	"directory" : {
+		"fg" : "blue",
+		"bg" : "black"
+	},
+	"file" : {
+		"fg" : "white",
+		"bg" : "black"
+	},
+	"selection" : {
+		"fg" : "white",
+		"bg" : "blue"
+	}
+}
