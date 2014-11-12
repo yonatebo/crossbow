@@ -259,7 +259,10 @@ function InitKeys(){
 	sk.on(['o','l'], DirectoryOpen);
 	sk.on(['u','h'], DirectoryUp);
 	//sk.on('c', ChangeDirectoryCurrent);
-	sk.on('q', ExitBow);
+	sk.on('q', function(){
+		ext.SetExitCommand('');
+		ExitBow();
+	});
 	sk.on('d', DupeTarget);
 	sk.on('L', LinkTarget);
 	sk.on('enter', Bolt);
